@@ -1,2 +1,2 @@
-# elexir-0
-Checking out this Elexir thing
+# elixir-0
+Checking out this Elixir thing
