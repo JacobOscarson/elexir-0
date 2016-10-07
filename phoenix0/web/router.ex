@@ -19,7 +19,9 @@ defmodule Phoenix0.Router do
     get "/", PageController, :index
     get "/hello", HelloController, :index
     get "/hello/:messenger", HelloController, :show
+    resources "/messages", MessageController
   end
+
 
   # Other scopes may use custom stacks.
   # scope "/api", Phoenix0 do
